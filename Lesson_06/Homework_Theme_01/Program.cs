@@ -69,13 +69,13 @@ namespace Homework_Theme_01
             /// </summary>
             averagePoint = (hP + mP + rP) / 3;
 
-            Console.SetCursorPosition(50, 50);
+            Console.SetCursorPosition(50, 50); // расположение курсора примерно по центру экрана
             Console.WriteLine("---Обычный вывод---"); // выводим в консоль обычный вывод
-            Console.SetCursorPosition(50, 51);
+            Console.SetCursorPosition(50, 51); // расположение курсора примерно по центру экрана
             Console.WriteLine(fullname + age + height + hP + mP + rP + averagePoint);
-            Console.SetCursorPosition(50, 53);
+            Console.SetCursorPosition(50, 53); // расположение курсора примерно по центру экрана
             Console.WriteLine("---Форматированный вывод---"); // выводим в консоль форматированный вывод  
-            Console.SetCursorPosition(50, 54);
+            Console.SetCursorPosition(50, 54); // расположение курсора примерно по центру экрана
             Console.WriteLine (pattern,
                                 fullname, 
                                 age, 
@@ -84,9 +84,9 @@ namespace Homework_Theme_01
                                 mP, 
                                 rP, 
                                 averagePoint);
-            Console.SetCursorPosition(50, 57);
+            Console.SetCursorPosition(50, 57); // расположение курсора примерно по центру экрана
             Console.WriteLine("---Интерполяция строк---"); // выводим в консоль вывод с интерполяцией строк
-            Console.SetCursorPosition(50, 58);
+            Console.SetCursorPosition(50, 58); // расположение курсора примерно по центру экрана
             Console.WriteLine($"Ваше имя: {fullname}, Ваш возраст: {age}, Ваш рост: {height}, Ваша оценка по истории: {hP}, Ваша оценка по математике: {mP}, Ваша оценка по русскому языку: {rP}, Ваш средний балл: {averagePoint:0.0}");
 
             Console.ReadKey();
